@@ -1,0 +1,160 @@
+2022-07-04 10:21:56,313 INFO    MainThread:66539 [internal.py:wandb_internal():90] W&B internal server running at pid: 66539, started at: 2022-07-04 10:21:56.313485
+2022-07-04 10:21:56,314 DEBUG   SenderThread:66539 [sender.py:send():235] send: header
+2022-07-04 10:21:56,314 INFO    WriterThread:66539 [datastore.py:open_for_write():75] open: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/run-c04t8ja4.wandb
+2022-07-04 10:21:56,315 DEBUG   SenderThread:66539 [sender.py:send():235] send: run
+2022-07-04 10:21:56,602 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: check_version
+2022-07-04 10:21:56,603 INFO    SenderThread:66539 [dir_watcher.py:__init__():205] watching files in: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files
+2022-07-04 10:21:56,604 INFO    SenderThread:66539 [sender.py:_start_run_threads():812] run started: c04t8ja4 with start time 1656894116
+2022-07-04 10:21:56,604 DEBUG   SenderThread:66539 [sender.py:send():235] send: summary
+2022-07-04 10:21:56,604 INFO    SenderThread:66539 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 10:21:56,604 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: check_version
+2022-07-04 10:21:56,701 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: run_start
+2022-07-04 10:21:56,701 DEBUG   HandlerThread:66539 [meta.py:__init__():35] meta init
+2022-07-04 10:21:56,704 DEBUG   HandlerThread:66539 [meta.py:__init__():49] meta init done
+2022-07-04 10:21:56,704 DEBUG   HandlerThread:66539 [meta.py:probe():209] probe
+2022-07-04 10:21:56,706 DEBUG   HandlerThread:66539 [git.py:repo():29] git repository is invalid
+2022-07-04 10:21:56,706 DEBUG   HandlerThread:66539 [meta.py:_save_pip():53] save pip
+2022-07-04 10:21:56,708 DEBUG   HandlerThread:66539 [meta.py:_save_pip():67] save pip done
+2022-07-04 10:21:56,709 DEBUG   HandlerThread:66539 [meta.py:_save_conda():74] save conda
+2022-07-04 10:21:57,334 DEBUG   HandlerThread:66539 [meta.py:_save_conda():84] save conda done
+2022-07-04 10:21:57,334 DEBUG   HandlerThread:66539 [meta.py:probe():247] probe done
+2022-07-04 10:21:57,336 DEBUG   SenderThread:66539 [sender.py:send():235] send: telemetry
+2022-07-04 10:21:57,336 DEBUG   SenderThread:66539 [sender.py:send():235] send: files
+2022-07-04 10:21:57,336 INFO    SenderThread:66539 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-04 10:21:57,338 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 10:21:57,338 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 10:21:57,603 DEBUG   SenderThread:66539 [sender.py:send():235] send: telemetry
+2022-07-04 10:21:57,604 DEBUG   SenderThread:66539 [sender.py:send():235] send: telemetry
+2022-07-04 10:21:57,611 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/wandb-metadata.json
+2022-07-04 10:21:57,612 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/wandb-summary.json
+2022-07-04 10:21:57,612 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/conda-environment.yaml
+2022-07-04 10:21:57,612 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/requirements.txt
+2022-07-04 10:21:57,612 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/output.log
+2022-07-04 10:21:58,116 INFO    Thread-11 :66539 [upload_job.py:push():132] Uploaded file /var/folders/r1/2cvwvkxd49x67g0tjfj3xzfw0000gn/T/tmpnby2_s19wandb/kmo47g5d-wandb-metadata.json
+2022-07-04 10:21:59,619 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/output.log
+2022-07-04 10:22:00,371 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:00,372 DEBUG   SenderThread:66539 [sender.py:send():235] send: exit
+2022-07-04 10:22:00,372 INFO    SenderThread:66539 [sender.py:send_exit():371] handling exit code: 1
+2022-07-04 10:22:00,372 INFO    SenderThread:66539 [sender.py:send_exit():373] handling runtime: 3
+2022-07-04 10:22:00,373 INFO    SenderThread:66539 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 10:22:00,373 INFO    SenderThread:66539 [sender.py:send_exit():379] send defer
+2022-07-04 10:22:00,373 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:00,374 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:00,374 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-04 10:22:00,375 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:00,375 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-04 10:22:00,375 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 1
+2022-07-04 10:22:00,375 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:00,375 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-04 10:22:00,621 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/output.log
+2022-07-04 10:22:00,621 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/wandb-summary.json
+2022-07-04 10:22:00,850 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:00,850 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:00,850 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-04 10:22:00,850 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 2
+2022-07-04 10:22:00,850 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:00,850 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:00,851 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-04 10:22:00,851 DEBUG   SenderThread:66539 [sender.py:send():235] send: stats
+2022-07-04 10:22:00,851 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:00,851 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-04 10:22:00,851 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 3
+2022-07-04 10:22:00,851 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:00,851 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-04 10:22:00,851 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:00,851 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-04 10:22:00,851 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 4
+2022-07-04 10:22:00,851 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:00,851 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-04 10:22:00,851 DEBUG   SenderThread:66539 [sender.py:send():235] send: summary
+2022-07-04 10:22:00,851 INFO    SenderThread:66539 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 10:22:00,852 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:00,852 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-04 10:22:00,852 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 5
+2022-07-04 10:22:00,852 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:00,852 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-04 10:22:00,852 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:00,852 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-04 10:22:00,956 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:01,128 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 6
+2022-07-04 10:22:01,128 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:01,128 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:01,128 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 6
+2022-07-04 10:22:01,129 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:01,129 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-07-04 10:22:01,129 INFO    SenderThread:66539 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-04 10:22:01,235 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:01,622 INFO    Thread-7  :66539 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/config.yaml
+2022-07-04 10:22:01,623 INFO    SenderThread:66539 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/wandb-summary.json
+2022-07-04 10:22:01,623 INFO    SenderThread:66539 [dir_watcher.py:finish():366] scan: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files
+2022-07-04 10:22:01,623 INFO    SenderThread:66539 [dir_watcher.py:finish():380] scan save: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/requirements.txt requirements.txt
+2022-07-04 10:22:01,623 INFO    SenderThread:66539 [dir_watcher.py:finish():380] scan save: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/output.log output.log
+2022-07-04 10:22:01,623 INFO    SenderThread:66539 [dir_watcher.py:finish():380] scan save: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/config.yaml config.yaml
+2022-07-04 10:22:01,624 INFO    SenderThread:66539 [dir_watcher.py:finish():380] scan save: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/wandb-summary.json wandb-summary.json
+2022-07-04 10:22:01,627 INFO    SenderThread:66539 [dir_watcher.py:finish():380] scan save: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/conda-environment.yaml conda-environment.yaml
+2022-07-04 10:22:01,638 INFO    SenderThread:66539 [dir_watcher.py:finish():380] scan save: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/wandb-metadata.json wandb-metadata.json
+2022-07-04 10:22:01,638 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 7
+2022-07-04 10:22:01,642 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:01,642 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:01,643 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 7
+2022-07-04 10:22:01,643 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:01,644 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-07-04 10:22:01,644 INFO    SenderThread:66539 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-04 10:22:01,749 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:01,749 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:01,855 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:01,855 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:01,961 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:01,961 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,067 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:02,068 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,169 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:02,170 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,272 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:02,272 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,378 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:02,379 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,486 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:02,486 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,594 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:02,595 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,603 INFO    Thread-15 :66539 [upload_job.py:push():132] Uploaded file /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/wandb-summary.json
+2022-07-04 10:22:02,605 INFO    Thread-12 :66539 [upload_job.py:push():132] Uploaded file /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/requirements.txt
+2022-07-04 10:22:02,611 INFO    Thread-13 :66539 [upload_job.py:push():132] Uploaded file /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/output.log
+2022-07-04 10:22:02,621 INFO    Thread-14 :66539 [upload_job.py:push():132] Uploaded file /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/config.yaml
+2022-07-04 10:22:02,701 INFO    Thread-16 :66539 [upload_job.py:push():132] Uploaded file /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/files/conda-environment.yaml
+2022-07-04 10:22:02,702 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:02,702 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,808 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:02,809 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:02,906 INFO    Thread-6 (_thread_body):66539 [sender.py:transition_state():392] send defer: 8
+2022-07-04 10:22:02,907 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:02,907 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 8
+2022-07-04 10:22:02,907 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:02,907 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-07-04 10:22:02,913 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:03,348 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 9
+2022-07-04 10:22:03,348 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:03,348 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:03,349 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 9
+2022-07-04 10:22:03,349 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:03,349 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-07-04 10:22:03,349 INFO    SenderThread:66539 [sender.py:transition_state():392] send defer: 10
+2022-07-04 10:22:03,350 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 10:22:03,350 INFO    HandlerThread:66539 [handler.py:handle_request_defer():164] handle defer: 10
+2022-07-04 10:22:03,350 DEBUG   SenderThread:66539 [sender.py:send():235] send: final
+2022-07-04 10:22:03,350 DEBUG   SenderThread:66539 [sender.py:send():235] send: footer
+2022-07-04 10:22:03,350 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: defer
+2022-07-04 10:22:03,350 INFO    SenderThread:66539 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-07-04 10:22:03,452 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 10:22:03,452 DEBUG   SenderThread:66539 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 10:22:03,453 INFO    SenderThread:66539 [file_pusher.py:join():150] waiting for file pusher
+2022-07-04 10:22:04,105 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: sampled_history
+2022-07-04 10:22:04,106 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-04 10:22:04,107 DEBUG   HandlerThread:66539 [handler.py:handle_request():141] handle_request: shutdown
+2022-07-04 10:22:04,107 INFO    HandlerThread:66539 [handler.py:finish():806] shutting down handler
+2022-07-04 10:22:04,355 INFO    WriterThread:66539 [datastore.py:close():279] close: /Users/jahan/Documents/cardiacdeepsurv/wandb/run-20220704_102155-c04t8ja4/run-c04t8ja4.wandb
+2022-07-04 10:22:05,005 INFO    SenderThread:66539 [sender.py:finish():1111] shutting down sender
+2022-07-04 10:22:05,005 INFO    SenderThread:66539 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-04 10:22:05,006 INFO    SenderThread:66539 [file_pusher.py:join():150] waiting for file pusher
+2022-07-04 10:22:05,011 INFO    MainThread:66539 [internal.py:handle_exit():80] Internal process exited

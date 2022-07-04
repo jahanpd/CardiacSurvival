@@ -1,0 +1,252 @@
+2022-07-04 10:06:17 ERROR 400 response executing GraphQL.
+2022-07-04 10:06:17 ERROR {"errors":[{"message":"name required for project query","path":["project"]}],"data":{"project":null}}
+2022-07-04 10:06:17 ERROR Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 571, in sweep
+    response = self.gql(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 108, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/cli/cli.py", line 96, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/cli/cli.py", line 1210, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 606, in agent
+    return run_agent(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 548, in run_agent
+    agent.run()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 181, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/internal.py", line 99, in sweep
+    return self.api.sweep(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [400]>
+
+2022-07-04 10:12:38 ERROR 400 response executing GraphQL.
+2022-07-04 10:12:38 ERROR {"errors":[{"message":"name required for project query","path":["project"]}],"data":{"project":null}}
+2022-07-04 10:12:38 ERROR Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 571, in sweep
+    response = self.gql(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 108, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/cli/cli.py", line 96, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/cli/cli.py", line 1210, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 606, in agent
+    return run_agent(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 548, in run_agent
+    agent.run()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 181, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/internal.py", line 99, in sweep
+    return self.api.sweep(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [400]>
+
+2022-07-04 10:15:00 ERROR 400 response executing GraphQL.
+2022-07-04 10:15:00 ERROR {"errors":[{"message":"name required for project query","path":["project"]}],"data":{"project":null}}
+2022-07-04 10:15:00 ERROR Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 571, in sweep
+    response = self.gql(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 108, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/cli/cli.py", line 96, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/cli/cli.py", line 1210, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 606, in agent
+    return run_agent(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 548, in run_agent
+    agent.run()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/wandb_agent.py", line 181, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/internal.py", line 99, in sweep
+    return self.api.sweep(*args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [400]>
+
+2022-07-04 10:47:21 INFO Running runs: []
+2022-07-04 10:47:21 INFO Agent received command: run
+2022-07-04 10:47:21 INFO Agent starting run with config:
+	alpha: 0.12067115267254726
+	seed: 950236
+2022-07-04 10:47:21 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.12067115267254726 --seed=950236
+2022-07-04 10:47:26 INFO Running runs: ['caclke83']
+2022-07-04 10:58:32 INFO Running runs: []
+2022-07-04 10:58:32 INFO Agent received command: run
+2022-07-04 10:58:32 INFO Agent starting run with config:
+	alpha: 0.763223014106305
+	seed: 928335
+2022-07-04 10:58:32 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.763223014106305 --seed=928335
+2022-07-04 10:58:37 INFO Running runs: ['pk4w840u']
+2022-07-04 10:58:48 INFO Cleaning up finished run: pk4w840u
+2022-07-04 10:58:48 INFO Agent received command: run
+2022-07-04 10:58:48 INFO Agent starting run with config:
+	alpha: 0.4139186335362556
+	seed: 527244
+2022-07-04 10:58:48 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.4139186335362556 --seed=527244
+2022-07-04 10:58:53 INFO Running runs: ['cn8gbpay']
+2022-07-04 10:59:04 INFO Cleaning up finished run: cn8gbpay
+2022-07-04 10:59:04 INFO Agent received command: run
+2022-07-04 10:59:04 INFO Agent starting run with config:
+	alpha: 5.7886877517344805e-11
+	seed: 106821
+2022-07-04 10:59:04 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=5.7886877517344805e-11 --seed=106821
+2022-07-04 10:59:09 INFO Running runs: ['lf27re3c']
+2022-07-04 10:59:20 INFO Cleaning up finished run: lf27re3c
+2022-07-04 10:59:20 INFO Agent received command: run
+2022-07-04 10:59:20 INFO Agent starting run with config:
+	alpha: 2.785833218147755e-11
+	seed: 808998
+2022-07-04 10:59:20 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.785833218147755e-11 --seed=808998
+2022-07-04 10:59:25 INFO Running runs: ['coyhx1q6']
+2022-07-04 10:59:36 INFO Cleaning up finished run: coyhx1q6
+2022-07-04 10:59:36 INFO Agent received command: run
+2022-07-04 10:59:36 INFO Agent starting run with config:
+	alpha: 1.893072005783025e-06
+	seed: 21539
+2022-07-04 10:59:36 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=1.893072005783025e-06 --seed=21539
+2022-07-04 10:59:41 INFO Running runs: ['nu96xhsm']
+2022-07-04 10:59:57 INFO Cleaning up finished run: nu96xhsm
+2022-07-04 10:59:58 INFO Agent received command: run
+2022-07-04 10:59:58 INFO Agent starting run with config:
+	alpha: 6.7294021591521995e-09
+	seed: 124150
+2022-07-04 10:59:58 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=6.7294021591521995e-09 --seed=124150
+2022-07-04 11:00:03 INFO Running runs: ['n953aiox']
+2022-07-04 11:00:13 INFO Cleaning up finished run: n953aiox
+2022-07-04 11:00:14 INFO Agent received command: run
+2022-07-04 11:00:14 INFO Agent starting run with config:
+	alpha: 1.1079179001579582e-09
+	seed: 984111
+2022-07-04 11:00:14 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=1.1079179001579582e-09 --seed=984111
+2022-07-04 11:00:19 INFO Running runs: ['5qudv0vg']
+2022-07-04 11:00:30 INFO Cleaning up finished run: 5qudv0vg
+2022-07-04 11:00:30 INFO Agent received command: run
+2022-07-04 11:00:30 INFO Agent starting run with config:
+	alpha: 6.726373847331599e-09
+	seed: 46941
+2022-07-04 11:00:30 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=6.726373847331599e-09 --seed=46941
+2022-07-04 11:00:35 INFO Running runs: ['or9jb5er']
+2022-07-04 11:00:51 INFO Cleaning up finished run: or9jb5er
+2022-07-04 11:00:52 INFO Agent received command: run
+2022-07-04 11:00:52 INFO Agent starting run with config:
+	alpha: 3.945311554826227e-09
+	seed: 233062
+2022-07-04 11:00:52 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=3.945311554826227e-09 --seed=233062
+2022-07-04 11:00:57 INFO Running runs: ['pr1z9gqs']
+2022-07-04 11:01:18 INFO Cleaning up finished run: pr1z9gqs
+2022-07-04 11:01:18 INFO Agent received command: run
+2022-07-04 11:01:18 INFO Agent starting run with config:
+	alpha: 0.0054125078046136695
+	seed: 572025
+2022-07-04 11:01:18 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.0054125078046136695 --seed=572025
+2022-07-04 11:01:23 INFO Running runs: ['e7toxt5g']
+2022-07-04 11:01:39 INFO Cleaning up finished run: e7toxt5g
+2022-07-04 11:01:40 INFO Agent received command: run
+2022-07-04 11:01:40 INFO Agent starting run with config:
+	alpha: 0.05061924355963235
+	seed: 99182
+2022-07-04 11:01:40 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.05061924355963235 --seed=99182
+2022-07-04 11:01:45 INFO Running runs: ['m3yndmtc']
+2022-07-04 11:01:55 INFO Cleaning up finished run: m3yndmtc
+2022-07-04 11:01:56 INFO Agent received command: run
+2022-07-04 11:01:56 INFO Agent starting run with config:
+	alpha: 0.0019839734869336735
+	seed: 536945
+2022-07-04 11:01:56 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.0019839734869336735 --seed=536945
+2022-07-04 11:02:01 INFO Running runs: ['a0xbv3fc']
+2022-07-04 11:02:17 INFO Cleaning up finished run: a0xbv3fc
+2022-07-04 11:02:17 INFO Agent received command: run
+2022-07-04 11:02:17 INFO Agent starting run with config:
+	alpha: 3.2437615850898407e-10
+	seed: 558637
+2022-07-04 11:02:17 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=3.2437615850898407e-10 --seed=558637
+2022-07-04 11:02:22 INFO Running runs: ['iba0yssg']
+2022-07-04 11:02:38 INFO Cleaning up finished run: iba0yssg
+2022-07-04 11:02:38 INFO Agent received command: run
+2022-07-04 11:02:38 INFO Agent starting run with config:
+	alpha: 0.084650330508204
+	seed: 495343
+2022-07-04 11:02:39 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.084650330508204 --seed=495343
+2022-07-04 11:02:44 INFO Running runs: ['dprbh1ph']
+2022-07-04 11:02:54 INFO Cleaning up finished run: dprbh1ph
+2022-07-04 11:02:55 INFO Agent received command: run
+2022-07-04 11:02:55 INFO Agent starting run with config:
+	alpha: 2.931265900168695e-05
+	seed: 245471
+2022-07-04 11:02:55 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.931265900168695e-05 --seed=245471
+2022-07-04 11:03:00 INFO Running runs: ['acnz5mli']
+2022-07-04 11:03:15 INFO Cleaning up finished run: acnz5mli
+2022-07-04 11:03:16 INFO Agent received command: run
+2022-07-04 11:03:16 INFO Agent starting run with config:
+	alpha: 3.1683917396367325e-08
+	seed: 704963
+2022-07-04 11:03:16 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=3.1683917396367325e-08 --seed=704963
+2022-07-04 11:03:21 INFO Running runs: ['q09zs3hz']
+2022-07-04 11:03:37 INFO Cleaning up finished run: q09zs3hz
+2022-07-04 11:03:37 INFO Agent received command: run
+2022-07-04 11:03:37 INFO Agent starting run with config:
+	alpha: 1.517199117401187e-11
+	seed: 935925
+2022-07-04 11:03:37 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=1.517199117401187e-11 --seed=935925
+2022-07-04 11:03:42 INFO Running runs: ['oxkez7lc']
+2022-07-04 11:03:53 INFO Cleaning up finished run: oxkez7lc
+2022-07-04 11:03:53 INFO Agent received command: run
+2022-07-04 11:03:53 INFO Agent starting run with config:
+	alpha: 9.97636961305662e-09
+	seed: 626463
+2022-07-04 11:03:53 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=9.97636961305662e-09 --seed=626463

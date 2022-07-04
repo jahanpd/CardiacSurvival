@@ -1,0 +1,37 @@
+[  1   2   4   5   7   9  10  11  14  16  17  18  19  25  29  31  32  33
+  37  38  40  43  44  48  51  55  57  58  59  60  61  63  64  65  68  69
+  70  71  75  77  78  79  89  90  91  95  98  99 100 101 108 110 111 112
+ 114 115 116 117 118 120 121 122 123 125 128 131 133 134 137 138 139 143
+ 144 146 149 150 151 155 156 157 160 161 162 163 167 169 170 173 175 176
+ 178 182 184 185 186 187 192 194 195]
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 142, in pandas._libs.index.IndexEngine.get_loc
+TypeError: '(array([  1,   2,   4,   5,   7,   9,  10,  11,  14,  16,  17,  18,  19,
+        25,  29,  31,  32,  33,  37,  38,  40,  43,  44,  48,  51,  55,
+        57,  58,  59,  60,  61,  63,  64,  65,  68,  69,  70,  71,  75,
+        77,  78,  79,  89,  90,  91,  95,  98,  99, 100, 101, 108, 110,
+       111, 112, 114, 115, 116, 117, 118, 120, 121, 122, 123, 125, 128,
+       131, 133, 134, 137, 138, 139, 143, 144, 146, 149, 150, 151, 155,
+       156, 157, 160, 161, 162, 163, 167, 169, 170, 173, 175, 176, 178,
+       182, 184, 185, 186, 187, 192, 194, 195]), slice(None, None, None))' is an invalid key
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/jahan/Documents/cardiacdeepsurv/train.py", line 48, in <module>
+    model.fit(X[train_index, :], y[train_index])
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3628, in get_loc
+    self._check_indexing_error(key)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 5637, in _check_indexing_error
+    raise InvalidIndexError(key)
+pandas.errors.InvalidIndexError: (array([  1,   2,   4,   5,   7,   9,  10,  11,  14,  16,  17,  18,  19,
+        25,  29,  31,  32,  33,  37,  38,  40,  43,  44,  48,  51,  55,
+        57,  58,  59,  60,  61,  63,  64,  65,  68,  69,  70,  71,  75,
+        77,  78,  79,  89,  90,  91,  95,  98,  99, 100, 101, 108, 110,
+       111, 112, 114, 115, 116, 117, 118, 120, 121, 122, 123, 125, 128,
+       131, 133, 134, 137, 138, 139, 143, 144, 146, 149, 150, 151, 155,
+       156, 157, 160, 161, 162, 163, 167, 169, 170, 173, 175, 176, 178,
+       182, 184, 185, 186, 187, 192, 194, 195]), slice(None, None, None))

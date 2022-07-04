@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/jahan/Documents/cardiacdeepsurv/train.py", line 41, in <module>
+    X, y = datasets(args.dataset)
+  File "/Users/jahan/Documents/cardiacdeepsurv/data.py", line 10, in datasets
+    return Xt.values, y.values
+AttributeError: 'numpy.ndarray' object has no attribute 'values'

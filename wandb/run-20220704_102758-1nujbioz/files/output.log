@@ -1,0 +1,30 @@
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:174: RuntimeWarning: overflow encountered in exp
+  risk_set += numpy.exp(xw[k])
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:171: RuntimeWarning: overflow encountered in exp
+  risk_set2 += numpy.exp(xw[k])
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:174: RuntimeWarning: overflow encountered in exp
+  risk_set += numpy.exp(xw[k])
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:171: RuntimeWarning: overflow encountered in exp
+  risk_set2 += numpy.exp(xw[k])
+Traceback (most recent call last):
+  File "/Users/jahan/Documents/cardiacdeepsurv/train.py", line 47, in <module>
+    model.fit(X[train_index, :], y[train_index])
+  File "/Users/jahan/Documents/cardiacdeepsurv/models.py", line 84, in fit
+    self.model.fit(X, y)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py", line 433, in fit
+    delta = solve(optimizer.hessian, optimizer.gradient,
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/scipy/linalg/_basic.py", line 219, in solve
+    _solve_check(n, info)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/scipy/linalg/_basic.py", line 29, in _solve_check
+    raise LinAlgError('Matrix is singular.')
+numpy.linalg.LinAlgError: Matrix is singular.

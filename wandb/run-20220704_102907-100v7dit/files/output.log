@@ -1,0 +1,16 @@
+
+Something went wrong. No variables to impute.
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:174: RuntimeWarning: overflow encountered in exp
+  risk_set += numpy.exp(xw[k])
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:171: RuntimeWarning: overflow encountered in exp
+  risk_set2 += numpy.exp(xw[k])
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:225: RuntimeWarning: overflow encountered in multiply
+  risk_set_xx2 += exp_xw[k] * xx
+Traceback (most recent call last):
+  File "/Users/jahan/Documents/cardiacdeepsurv/train.py", line 47, in <module>
+    model.fit(X[train_index, :], y[train_index])
+  File "/Users/jahan/Documents/cardiacdeepsurv/models.py", line 84, in fit
+    self.model.fit(X, y)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py", line 437, in fit
+    raise ValueError("search direction contains NaN or infinite values")
+ValueError: search direction contains NaN or infinite values

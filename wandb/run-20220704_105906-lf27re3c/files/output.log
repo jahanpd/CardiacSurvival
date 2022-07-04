@@ -1,0 +1,29 @@
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:174: RuntimeWarning: overflow encountered in exp
+  risk_set += numpy.exp(xw[k])
+/Users/jahan/Documents/cardiacdeepsurv/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+/Users/jahan/Documents/cardiacdeepsurv/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:171: RuntimeWarning: overflow encountered in exp
+  risk_set2 += numpy.exp(xw[k])
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:224: RuntimeWarning: overflow encountered in multiply
+  risk_set_x2 += exp_xw[k] * xk
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:225: RuntimeWarning: overflow encountered in multiply
+  risk_set_xx2 += exp_xw[k] * xx
+/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:246: RuntimeWarning: invalid value encountered in subtract
+  hessian += n_events * (a - b) * inv_n_samples
+Traceback (most recent call last):
+  File "/Users/jahan/Documents/cardiacdeepsurv/train.py", line 51, in <module>
+    model.fit(X[train_index, :], y[train_index])
+  File "/Users/jahan/Documents/cardiacdeepsurv/models.py", line 84, in fit
+    self.model.fit(X, y)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py", line 437, in fit
+    raise ValueError("search direction contains NaN or infinite values")
+ValueError: search direction contains NaN or infinite values

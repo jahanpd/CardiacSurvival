@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/jahan/Documents/cardiacdeepsurv/train.py", line 46, in <module>
+    model = make_model(config, seed=seed)
+  File "/Users/jahan/Documents/cardiacdeepsurv/models.py", line 100, in make_model
+    model = CoxPHSurvivalAnalysis(
+TypeError: CoxPHSurvivalAnalysis.__init__() got an unexpected keyword argument 'random_state'

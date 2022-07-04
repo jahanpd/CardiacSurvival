@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 142, in pandas._libs.index.IndexEngine.get_loc
+TypeError: '(array([  1,   2,   3,   5,  10,  12,  14,  15,  17,  18,  19,  20,  23,
+        28,  29,  30,  31,  42,  43,  44,  45,  50,  52,  54,  56,  57,
+        58,  59,  60,  61,  62,  64,  65,  66,  68,  69,  70,  72,  76,
+        78,  79,  82,  85,  86,  89,  92,  93,  94,  95,  96, 101, 102,
+       104, 106, 109, 113, 117, 119, 123, 125, 127, 128, 129, 130, 131,
+       134, 137, 138, 139, 140, 141, 142, 145, 146, 147, 149, 152, 155,
+       156, 157, 158, 161, 163, 168, 169, 170, 171, 172, 173, 175, 176,
+       177, 178, 181, 182, 190, 192, 194, 197]), slice(None, None, None))' is an invalid key
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/jahan/Documents/cardiacdeepsurv/train.py", line 47, in <module>
+    model.fit(X[train_index, :], y_train[train_index])
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3628, in get_loc
+    self._check_indexing_error(key)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 5637, in _check_indexing_error
+    raise InvalidIndexError(key)
+pandas.errors.InvalidIndexError: (array([  1,   2,   3,   5,  10,  12,  14,  15,  17,  18,  19,  20,  23,
+        28,  29,  30,  31,  42,  43,  44,  45,  50,  52,  54,  56,  57,
+        58,  59,  60,  61,  62,  64,  65,  66,  68,  69,  70,  72,  76,
+        78,  79,  82,  85,  86,  89,  92,  93,  94,  95,  96, 101, 102,
+       104, 106, 109, 113, 117, 119, 123, 125, 127, 128, 129, 130, 131,
+       134, 137, 138, 139, 140, 141, 142, 145, 146, 147, 149, 152, 155,
+       156, 157, 158, 161, 163, 168, 169, 170, 171, 172, 173, 175, 176,
+       177, 178, 181, 182, 190, 192, 194, 197]), slice(None, None, None))

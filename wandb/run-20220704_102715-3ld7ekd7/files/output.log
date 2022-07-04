@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/jahan/Documents/cardiacdeepsurv/train.py", line 47, in <module>
+    model.fit(X[train_index, :], y[train_index])
+  File "/Users/jahan/Documents/cardiacdeepsurv/models.py", line 82, in fit
+    self.imputer.fit(X, y)
+  File "/Users/jahan/Documents/cardiacdeepsurv/models.py", line 21, in fit
+    self.kds = mf.ImputationKernel(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/miceforest/ImputationKernel.py", line 240, in __init__
+    super().__init__(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/miceforest/ImputedData.py", line 305, in __init__
+    raise ValueError("Something went wrong. No variables to impute.")
+ValueError: Something went wrong. No variables to impute.

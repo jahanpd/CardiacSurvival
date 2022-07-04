@@ -1,0 +1,23 @@
+{
+    "os": "macOS-12.4-arm64-arm-64bit",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-04T01:03:56.040527",
+    "startedAt": "2022-07-04T01:03:55.224841",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--model",
+        "cox",
+        "--dataset",
+        "test",
+        "--alpha=9.97636961305662e-09",
+        "--seed=626463"
+    ],
+    "state": "running",
+    "program": "/Users/jahan/Documents/cardiacdeepsurv/train.py",
+    "codePath": "train.py",
+    "host": "jahans-MacBook-Air.local",
+    "username": "jahan",
+    "executable": "/opt/homebrew/Caskroom/miniconda/base/envs/surv/bin/python"
+}
