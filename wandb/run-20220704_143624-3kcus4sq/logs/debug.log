@@ -1,0 +1,25 @@
+2022-07-04 14:36:24,629 INFO    MainThread:28178 [wandb_setup.py:_flush():76] Loading settings from /home/jahan/.config/wandb/settings
+2022-07-04 14:36:24,629 INFO    MainThread:28178 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2022-07-04 14:36:24,629 INFO    MainThread:28178 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'cardiac-ml', 'project': 'survival', 'sweep_id': 'yegfiod0', 'root_dir': '/home/jahan/CardiacSurvival', 'run_id': '3kcus4sq', 'sweep_param_path': '/home/jahan/CardiacSurvival/wandb/sweep-yegfiod0/config-3kcus4sq.yaml'}
+2022-07-04 14:36:24,629 INFO    MainThread:28178 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/home/jahan/CardiacSurvival/train.py'}
+2022-07-04 14:36:24,629 INFO    MainThread:28178 [wandb_init.py:_log_setup():428] Logging user logs to /home/jahan/CardiacSurvival/wandb/run-20220704_143624-3kcus4sq/logs/debug.log
+2022-07-04 14:36:24,629 INFO    MainThread:28178 [wandb_init.py:_log_setup():429] Logging internal logs to /home/jahan/CardiacSurvival/wandb/run-20220704_143624-3kcus4sq/logs/debug-internal.log
+2022-07-04 14:36:24,629 INFO    MainThread:28178 [wandb_init.py:init():462] calling init triggers
+2022-07-04 14:36:24,629 INFO    MainThread:28178 [wandb_init.py:init():465] wandb.init called with sweep_config: {'alpha': 2.466985524517817e-09, 'seed': 242699}
+config: {'dataset': 'test', 'model': 'cox', 'alpha': 2.466985524517817e-09, 'learning_rate': 0.1, 'loss': 'coxph', 'n_estimators': 100, 'max_depth': 20, 'min_samples_split': 6, 'min_samples_leaf': 3, 'min_weight_fraction_leaf': 0, 'kernel': 'linear', 'seed': 242699}
+2022-07-04 14:36:24,630 INFO    MainThread:28178 [wandb_init.py:init():515] starting backend
+2022-07-04 14:36:24,630 INFO    MainThread:28178 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-07-04 14:36:24,634 INFO    MainThread:28178 [backend.py:ensure_launched():217] starting backend process...
+2022-07-04 14:36:24,635 INFO    MainThread:28178 [backend.py:ensure_launched():222] started backend process with pid: 28209
+2022-07-04 14:36:24,635 INFO    MainThread:28178 [wandb_init.py:init():525] backend started and connected
+2022-07-04 14:36:24,640 INFO    MainThread:28178 [wandb_init.py:init():596] updated telemetry
+2022-07-04 14:36:24,646 INFO    MainThread:28178 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-07-04 14:36:25,458 INFO    MainThread:28178 [wandb_run.py:_on_init():1924] communicating current version
+2022-07-04 14:36:25,574 INFO    MainThread:28178 [wandb_run.py:_on_init():1928] got version response 
+2022-07-04 14:36:25,575 INFO    MainThread:28178 [wandb_init.py:init():662] starting run threads in backend
+2022-07-04 14:36:28,052 INFO    MainThread:28178 [wandb_run.py:_config_callback():1136] config_cb None None {'alpha': 2.466985524517817e-09, 'seed': 242699}
+2022-07-04 14:36:28,063 INFO    MainThread:28178 [wandb_run.py:_console_start():1898] atexit reg
+2022-07-04 14:36:28,064 INFO    MainThread:28178 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2022-07-04 14:36:28,064 INFO    MainThread:28178 [wandb_run.py:_redirect():1776] Redirecting console.
+2022-07-04 14:36:28,067 INFO    MainThread:28178 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-07-04 14:36:28,067 INFO    MainThread:28178 [wandb_init.py:init():688] run started, returning control to user process

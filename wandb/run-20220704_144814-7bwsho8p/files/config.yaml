@@ -1,0 +1,80 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.20
+    framework: lightgbm
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: training_cindex
+      6:
+      - 3
+      7:
+      - 3
+    - 1: validation_cindex
+      6:
+      - 3
+      7:
+      - 3
+    - 1: validation_cindex_mean
+      6:
+      - 3
+    python_version: 3.10.5
+    start_time: 1656910094
+    t:
+      1:
+      - 5
+      - 8
+      - 53
+      - 55
+      2:
+      - 5
+      - 8
+      - 53
+      - 55
+      3:
+      - 7
+      - 13
+      - 16
+      4: 3.10.5
+      5: 0.12.20
+      8:
+      - 5
+alpha:
+  desc: null
+  value: 0.711325943297747
+dataset:
+  desc: null
+  value: test
+kernel:
+  desc: null
+  value: linear
+learning_rate:
+  desc: null
+  value: 0.1
+loss:
+  desc: null
+  value: coxph
+max_depth:
+  desc: null
+  value: 20
+min_samples_leaf:
+  desc: null
+  value: 3
+min_samples_split:
+  desc: null
+  value: 6
+min_weight_fraction_leaf:
+  desc: null
+  value: 0
+model:
+  desc: null
+  value: cox
+n_estimators:
+  desc: null
+  value: 100
+seed:
+  desc: null
+  value: 59383

@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.18.9-arch1-1-x86_64-with-glibc2.35",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-04T04:50:45.681463",
+    "startedAt": "2022-07-04T04:50:44.794488",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 2,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--model",
+        "cox",
+        "--dataset",
+        "test",
+        "--alpha=0.03376928973715308",
+        "--seed=645616"
+    ],
+    "state": "running",
+    "program": "/home/jahan/CardiacSurvival/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/jahanpd/CardiacSurvival.git",
+        "commit": "9c6d6e7f2d9df865f53318e3d51ade22f76e3f51"
+    },
+    "email": "jahan.pd@gmail.com",
+    "root": "/home/jahan/CardiacSurvival",
+    "host": "jahan",
+    "username": "jahan",
+    "executable": "/home/jahan/.conda/envs/surv/bin/python"
+}

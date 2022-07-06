@@ -1,0 +1,75 @@
+
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/CardiacSurvival/models.py:84: ConvergenceWarning: Optimization did not converge: Maximum number of iterations has been exceeded.
+  self.model.fit(X, y)
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:171: RuntimeWarning: overflow encountered in exp
+  risk_set2 += numpy.exp(xw[k])
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+Something went wrong. No variables to impute.
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:225: RuntimeWarning: overflow encountered in multiply
+  risk_set_xx2 += exp_xw[k] * xx
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:433: LinAlgWarning: Ill-conditioned matrix (rcond=0): result may not be accurate.
+  delta = solve(optimizer.hessian, optimizer.gradient,
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:224: RuntimeWarning: overflow encountered in multiply
+  risk_set_x2 += exp_xw[k] * xk
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:246: RuntimeWarning: invalid value encountered in subtract
+  hessian += n_events * (a - b) * inv_n_samples
+Traceback (most recent call last):
+  File "/home/jahan/CardiacSurvival/train.py", line 54, in <module>
+    model.fit(X[train_index, :], y[train_index])
+  File "/home/jahan/CardiacSurvival/models.py", line 84, in fit
+    self.model.fit(X, y)
+  File "/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py", line 437, in fit
+    raise ValueError("search direction contains NaN or infinite values")
+ValueError: search direction contains NaN or infinite values

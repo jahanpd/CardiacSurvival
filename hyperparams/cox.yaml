@@ -3,8 +3,8 @@ method: bayes
 name: cox
 project: survival
 metric:
-  name: validation_loss
-  goal: minimize
+  name: validation_cindex_mean
+  goal: maximize
 parameters:
   alpha:
     min: 0.00000000001

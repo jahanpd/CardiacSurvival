@@ -1,0 +1,17 @@
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:171: RuntimeWarning: overflow encountered in exp
+  risk_set2 += numpy.exp(xw[k])
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:224: RuntimeWarning: overflow encountered in multiply
+  risk_set_x2 += exp_xw[k] * xk
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:225: RuntimeWarning: overflow encountered in multiply
+  risk_set_xx2 += exp_xw[k] * xx
+/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py:246: RuntimeWarning: invalid value encountered in subtract
+  hessian += n_events * (a - b) * inv_n_samples
+Traceback (most recent call last):
+  File "/home/jahan/CardiacSurvival/train.py", line 51, in <module>
+    model.fit(X[train_index, :], y[train_index])
+  File "/home/jahan/CardiacSurvival/models.py", line 84, in fit
+    self.model.fit(X, y)
+  File "/home/jahan/.conda/envs/surv/lib/python3.10/site-packages/sksurv/linear_model/coxph.py", line 437, in fit
+    raise ValueError("search direction contains NaN or infinite values")
+ValueError: search direction contains NaN or infinite values
+Something went wrong. No variables to impute.

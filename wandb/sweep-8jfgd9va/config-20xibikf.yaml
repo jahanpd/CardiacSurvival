@@ -1,0 +1,6 @@
+wandb_version: 1
+
+alpha:
+  value: 1.3283080974825032e-11
+seed:
+  value: 374206

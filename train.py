@@ -38,6 +38,7 @@ config = wandb.config
 # define recorded metrics
 wandb.define_metric("training_cindex", summary="mean")
 wandb.define_metric("validation_cindex", summary="mean")
+wandb.define_metric("validation_cindex_mean")
 
 rng = np.random.default_rng(config.seed)
 
@@ -45,14 +46,21 @@ rng = np.random.default_rng(config.seed)
 X, y = datasets(args.dataset)
 
 rkf = RepeatedKFold(n_splits=4, n_repeats=5)
+i = 0
+mean = []
+metrics = {}
 for train_index, test_index in rkf.split(X):
     seed = int(rng.integers(1,9999))
     model = make_model(config, seed=seed)
     model.fit(X[train_index, :], y[train_index])
     scoretrain = model.score(X[train_index, :], y[train_index])
     scoreval = model.score(X[test_index, :], y[test_index])
-    metrics = {
+    metrics[""] = {
         "training_cindex": scoretrain,
         "validation_cindex": scoreval
     }
-    wandb.log(metrics)
+    wandb.log(metrics, step=i)
+    mean.append(scoreval)
+    i += 1
+
+wandb.log({"validation_cindex_mean": np.nanmean(mean)})

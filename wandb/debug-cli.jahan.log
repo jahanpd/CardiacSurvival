@@ -250,3 +250,253 @@ wandb.errors.CommError: <Response [400]>
 	alpha: 9.97636961305662e-09
 	seed: 626463
 2022-07-04 11:03:53 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=9.97636961305662e-09 --seed=626463
+2022-07-04 14:30:23 INFO Running runs: []
+2022-07-04 14:30:24 INFO Agent received command: run
+2022-07-04 14:30:24 INFO Agent starting run with config:
+	alpha: 4.7502348248546276e-11
+	seed: 980245
+2022-07-04 14:30:24 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=4.7502348248546276e-11 --seed=980245
+2022-07-04 14:30:29 INFO Running runs: ['xb143dvl']
+2022-07-04 14:30:39 INFO Cleaning up finished run: xb143dvl
+2022-07-04 14:30:40 INFO Agent received command: run
+2022-07-04 14:30:40 INFO Agent starting run with config:
+	alpha: 7.193018567599758e-09
+	seed: 569865
+2022-07-04 14:30:40 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=7.193018567599758e-09 --seed=569865
+2022-07-04 14:30:45 INFO Running runs: ['9z3gwobn']
+2022-07-04 14:31:06 INFO Cleaning up finished run: 9z3gwobn
+2022-07-04 14:31:07 INFO Agent received command: run
+2022-07-04 14:31:07 INFO Agent starting run with config:
+	alpha: 0.10906005525207162
+	seed: 5470
+2022-07-04 14:31:07 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.10906005525207162 --seed=5470
+2022-07-04 14:31:12 INFO Running runs: ['xji36aon']
+2022-07-04 14:31:28 INFO Cleaning up finished run: xji36aon
+2022-07-04 14:31:28 INFO Agent received command: run
+2022-07-04 14:31:28 INFO Agent starting run with config:
+	alpha: 1.3283080974825032e-11
+	seed: 374206
+2022-07-04 14:31:28 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=1.3283080974825032e-11 --seed=374206
+2022-07-04 14:31:33 INFO Running runs: ['20xibikf']
+2022-07-04 14:31:44 INFO Cleaning up finished run: 20xibikf
+2022-07-04 14:31:44 INFO Agent received command: run
+2022-07-04 14:31:44 INFO Agent starting run with config:
+	alpha: 2.432283801562669e-09
+	seed: 944074
+2022-07-04 14:31:44 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.432283801562669e-09 --seed=944074
+2022-07-04 14:32:36 INFO Running runs: []
+2022-07-04 14:32:37 INFO Agent received command: run
+2022-07-04 14:32:37 INFO Agent starting run with config:
+	alpha: 0.005063902254732874
+	seed: 980206
+2022-07-04 14:32:37 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.005063902254732874 --seed=980206
+2022-07-04 14:32:42 INFO Running runs: ['b7rzhvhb']
+2022-07-04 14:33:08 INFO Cleaning up finished run: b7rzhvhb
+2022-07-04 14:33:09 INFO Agent received command: run
+2022-07-04 14:33:09 INFO Agent starting run with config:
+	alpha: 1.2529202631885236e-08
+	seed: 794238
+2022-07-04 14:33:09 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=1.2529202631885236e-08 --seed=794238
+2022-07-04 14:33:14 INFO Running runs: ['yzjz1ad7']
+2022-07-04 14:33:46 INFO Cleaning up finished run: yzjz1ad7
+2022-07-04 14:33:47 INFO Agent received command: run
+2022-07-04 14:33:47 INFO Agent starting run with config:
+	alpha: 2.736409585326783e-07
+	seed: 10307
+2022-07-04 14:33:47 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.736409585326783e-07 --seed=10307
+2022-07-04 14:33:52 INFO Running runs: ['816awkwd']
+2022-07-04 14:34:35 INFO Cleaning up finished run: 816awkwd
+2022-07-04 14:34:35 INFO Agent received command: run
+2022-07-04 14:34:35 INFO Agent starting run with config:
+	alpha: 0.6901988039086467
+	seed: 974667
+2022-07-04 14:34:35 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.6901988039086467 --seed=974667
+2022-07-04 14:34:40 INFO Running runs: ['hg9a16vo']
+2022-07-04 14:34:56 INFO Cleaning up finished run: hg9a16vo
+2022-07-04 14:34:56 INFO Agent received command: run
+2022-07-04 14:34:56 INFO Agent starting run with config:
+	alpha: 0.0034867031824829383
+	seed: 320638
+2022-07-04 14:34:56 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.0034867031824829383 --seed=320638
+2022-07-04 14:35:01 INFO Running runs: ['q7l548dk']
+2022-07-04 14:35:39 INFO Cleaning up finished run: q7l548dk
+2022-07-04 14:35:39 INFO Agent received command: run
+2022-07-04 14:35:39 INFO Agent starting run with config:
+	alpha: 0.2233764938352134
+	seed: 735273
+2022-07-04 14:35:39 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.2233764938352134 --seed=735273
+2022-07-04 14:35:44 INFO Running runs: ['gy051hnh']
+2022-07-04 14:36:00 INFO Cleaning up finished run: gy051hnh
+2022-07-04 14:36:01 INFO Agent received command: run
+2022-07-04 14:36:01 INFO Agent starting run with config:
+	alpha: 0.14934491546602882
+	seed: 347359
+2022-07-04 14:36:01 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.14934491546602882 --seed=347359
+2022-07-04 14:36:06 INFO Running runs: ['606walb1']
+2022-07-04 14:36:22 INFO Cleaning up finished run: 606walb1
+2022-07-04 14:36:22 INFO Agent received command: run
+2022-07-04 14:36:22 INFO Agent starting run with config:
+	alpha: 2.466985524517817e-09
+	seed: 242699
+2022-07-04 14:36:22 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.466985524517817e-09 --seed=242699
+2022-07-04 14:36:27 INFO Running runs: ['3kcus4sq']
+2022-07-04 14:45:10 INFO Running runs: []
+2022-07-04 14:45:11 INFO Agent received command: run
+2022-07-04 14:45:11 INFO Agent starting run with config:
+	alpha: 1.055683732380922e-11
+	seed: 973872
+2022-07-04 14:45:11 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=1.055683732380922e-11 --seed=973872
+2022-07-04 14:45:16 INFO Running runs: ['vehouoj0']
+2022-07-04 14:45:26 INFO Cleaning up finished run: vehouoj0
+2022-07-04 14:45:27 INFO Agent received command: run
+2022-07-04 14:45:27 INFO Agent starting run with config:
+	alpha: 2.4772684454482393e-09
+	seed: 974601
+2022-07-04 14:45:27 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.4772684454482393e-09 --seed=974601
+2022-07-04 14:45:32 INFO Running runs: ['ncxl4kqf']
+2022-07-04 14:45:58 INFO Cleaning up finished run: ncxl4kqf
+2022-07-04 14:45:59 INFO Agent received command: run
+2022-07-04 14:45:59 INFO Agent starting run with config:
+	alpha: 0.06729363192015686
+	seed: 117427
+2022-07-04 14:45:59 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.06729363192015686 --seed=117427
+2022-07-04 14:46:04 INFO Running runs: ['f6apdme0']
+2022-07-04 14:46:20 INFO Cleaning up finished run: f6apdme0
+2022-07-04 14:46:20 INFO Agent received command: run
+2022-07-04 14:46:20 INFO Agent starting run with config:
+	alpha: 2.542611718804676e-09
+	seed: 956797
+2022-07-04 14:46:20 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.542611718804676e-09 --seed=956797
+2022-07-04 14:46:25 INFO Running runs: ['r8r3jpdi']
+2022-07-04 14:46:41 INFO Cleaning up finished run: r8r3jpdi
+2022-07-04 14:46:41 INFO Agent received command: run
+2022-07-04 14:46:41 INFO Agent starting run with config:
+	alpha: 0.0004956935789589507
+	seed: 44840
+2022-07-04 14:46:42 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.0004956935789589507 --seed=44840
+2022-07-04 14:46:47 INFO Running runs: ['hj1zxwkg']
+2022-07-04 14:47:29 INFO Cleaning up finished run: hj1zxwkg
+2022-07-04 14:47:30 INFO Agent received command: run
+2022-07-04 14:47:30 INFO Agent starting run with config:
+	alpha: 0.47626699315487064
+	seed: 136571
+2022-07-04 14:47:30 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.47626699315487064 --seed=136571
+2022-07-04 14:47:35 INFO Running runs: ['qik3mnxk']
+2022-07-04 14:47:51 INFO Cleaning up finished run: qik3mnxk
+2022-07-04 14:47:51 INFO Agent received command: run
+2022-07-04 14:47:51 INFO Agent starting run with config:
+	alpha: 5.797695329554199e-10
+	seed: 851968
+2022-07-04 14:47:51 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=5.797695329554199e-10 --seed=851968
+2022-07-04 14:47:56 INFO Running runs: ['rjg694ss']
+2022-07-04 14:48:12 INFO Cleaning up finished run: rjg694ss
+2022-07-04 14:48:13 INFO Agent received command: run
+2022-07-04 14:48:13 INFO Agent starting run with config:
+	alpha: 0.711325943297747
+	seed: 59383
+2022-07-04 14:48:13 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.711325943297747 --seed=59383
+2022-07-04 14:48:18 INFO Running runs: ['7bwsho8p']
+2022-07-04 14:48:34 INFO Cleaning up finished run: 7bwsho8p
+2022-07-04 14:48:34 INFO Agent received command: run
+2022-07-04 14:48:34 INFO Agent starting run with config:
+	alpha: 3.5400974077390804e-10
+	seed: 835711
+2022-07-04 14:48:34 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=3.5400974077390804e-10 --seed=835711
+2022-07-04 14:48:39 INFO Running runs: ['rkuzozjz']
+2022-07-04 14:48:50 INFO Cleaning up finished run: rkuzozjz
+2022-07-04 14:48:50 INFO Agent received command: run
+2022-07-04 14:48:50 INFO Agent starting run with config:
+	alpha: 1.8750695404359144e-07
+	seed: 415432
+2022-07-04 14:48:50 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=1.8750695404359144e-07 --seed=415432
+2022-07-04 14:48:55 INFO Running runs: ['w2620v4w']
+2022-07-04 14:49:27 INFO Cleaning up finished run: w2620v4w
+2022-07-04 14:49:27 INFO Agent received command: run
+2022-07-04 14:49:27 INFO Agent starting run with config:
+	alpha: 2.643176483546235e-07
+	seed: 786457
+2022-07-04 14:49:27 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.643176483546235e-07 --seed=786457
+2022-07-04 14:50:10 INFO Running runs: []
+2022-07-04 14:50:11 INFO Agent received command: run
+2022-07-04 14:50:11 INFO Agent starting run with config:
+	alpha: 7.731765908893855e-11
+	seed: 372308
+2022-07-04 14:50:11 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=7.731765908893855e-11 --seed=372308
+2022-07-04 14:50:16 INFO Running runs: ['3cwcxzg3']
+2022-07-04 14:50:42 INFO Cleaning up finished run: 3cwcxzg3
+2022-07-04 14:50:43 INFO Agent received command: run
+2022-07-04 14:50:43 INFO Agent starting run with config:
+	alpha: 0.03376928973715308
+	seed: 645616
+2022-07-04 14:50:43 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.03376928973715308 --seed=645616
+2022-07-04 14:50:48 INFO Running runs: ['c90ded4z']
+2022-07-04 14:51:04 INFO Cleaning up finished run: c90ded4z
+2022-07-04 14:51:04 INFO Agent received command: run
+2022-07-04 14:51:04 INFO Agent starting run with config:
+	alpha: 0.030508144848208935
+	seed: 82281
+2022-07-04 14:51:04 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.030508144848208935 --seed=82281
+2022-07-04 14:51:09 INFO Running runs: ['pujsk08t']
+2022-07-04 14:51:25 INFO Cleaning up finished run: pujsk08t
+2022-07-04 14:51:26 INFO Agent received command: run
+2022-07-04 14:51:26 INFO Agent starting run with config:
+	alpha: 6.570128251280764e-09
+	seed: 646916
+2022-07-04 14:51:26 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=6.570128251280764e-09 --seed=646916
+2022-07-04 14:51:31 INFO Running runs: ['juu5rd4t']
+2022-07-04 14:52:14 INFO Cleaning up finished run: juu5rd4t
+2022-07-04 14:52:15 INFO Agent received command: run
+2022-07-04 14:52:15 INFO Agent starting run with config:
+	alpha: 0.9797292689787732
+	seed: 409093
+2022-07-04 14:52:15 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.9797292689787732 --seed=409093
+2022-07-04 14:52:20 INFO Running runs: ['jj69xd61']
+2022-07-04 14:52:36 INFO Cleaning up finished run: jj69xd61
+2022-07-04 14:52:36 INFO Agent received command: run
+2022-07-04 14:52:36 INFO Agent starting run with config:
+	alpha: 0.8205861617186524
+	seed: 284784
+2022-07-04 14:52:36 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.8205861617186524 --seed=284784
+2022-07-04 14:52:41 INFO Running runs: ['52sf666u']
+2022-07-04 14:52:57 INFO Cleaning up finished run: 52sf666u
+2022-07-04 14:52:58 INFO Agent received command: run
+2022-07-04 14:52:58 INFO Agent starting run with config:
+	alpha: 0.17697350126078532
+	seed: 316537
+2022-07-04 14:52:58 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.17697350126078532 --seed=316537
+2022-07-04 14:53:03 INFO Running runs: ['hajsbeaa']
+2022-07-04 14:53:19 INFO Cleaning up finished run: hajsbeaa
+2022-07-04 14:53:19 INFO Agent received command: run
+2022-07-04 14:53:19 INFO Agent starting run with config:
+	alpha: 0.00027565063590229735
+	seed: 629480
+2022-07-04 14:53:19 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.00027565063590229735 --seed=629480
+2022-07-04 14:53:24 INFO Running runs: ['f0hgq8ip']
+2022-07-04 14:54:07 INFO Cleaning up finished run: f0hgq8ip
+2022-07-04 14:54:08 INFO Agent received command: run
+2022-07-04 14:54:08 INFO Agent starting run with config:
+	alpha: 1.897538847394094e-10
+	seed: 437111
+2022-07-04 14:54:08 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=1.897538847394094e-10 --seed=437111
+2022-07-04 14:54:13 INFO Running runs: ['ce9onkjj']
+2022-07-04 14:54:29 INFO Cleaning up finished run: ce9onkjj
+2022-07-04 14:54:29 INFO Agent received command: run
+2022-07-04 14:54:29 INFO Agent starting run with config:
+	alpha: 0.00119125969397704
+	seed: 754749
+2022-07-04 14:54:29 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.00119125969397704 --seed=754749
+2022-07-04 14:54:34 INFO Running runs: ['5hw08o9l']
+2022-07-04 14:55:12 INFO Cleaning up finished run: 5hw08o9l
+2022-07-04 14:55:13 INFO Agent received command: run
+2022-07-04 14:55:13 INFO Agent starting run with config:
+	alpha: 0.00021369323305234453
+	seed: 286651
+2022-07-04 14:55:13 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=0.00021369323305234453 --seed=286651
+2022-07-04 14:55:18 INFO Running runs: ['1r69d2be']
+2022-07-04 14:56:00 INFO Cleaning up finished run: 1r69d2be
+2022-07-04 14:56:01 INFO Agent received command: run
+2022-07-04 14:56:01 INFO Agent starting run with config:
+	alpha: 2.238921057737089e-08
+	seed: 584291
+2022-07-04 14:56:01 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.238921057737089e-08 --seed=584291
+2022-07-04 14:56:06 INFO Running runs: ['qvrvicg6']

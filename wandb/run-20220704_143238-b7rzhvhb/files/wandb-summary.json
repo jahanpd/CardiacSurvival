@@ -1,0 +1,1 @@
+{"training_cindex": {"mean": 0.9921299727204271}, "validation_cindex": {"mean": 0.6211768158184063}, "_timestamp": 1656909180, "_runtime": 22, "_step": 19, "_wandb": {"runtime": 23}}
