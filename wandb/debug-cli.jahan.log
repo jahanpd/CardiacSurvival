@@ -500,3 +500,444 @@ wandb.errors.CommError: <Response [400]>
 	seed: 584291
 2022-07-04 14:56:01 INFO About to run command: /usr/bin/env python train.py --model cox --dataset test --alpha=2.238921057737089e-08 --seed=584291
 2022-07-04 14:56:06 INFO Running runs: ['qvrvicg6']
+2022-08-16 22:54:01 INFO Running runs: []
+2022-08-16 22:54:02 INFO Agent received command: run
+2022-08-16 22:54:02 INFO Agent starting run with config:
+	alpha: 7.613210783119072e-07
+2022-08-16 22:54:02 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model --corrupt --alpha=7.613210783119072e-07
+2022-08-16 22:54:07 INFO Running runs: ['hznf7ays']
+2022-08-16 22:54:07 INFO Cleaning up finished run: hznf7ays
+2022-08-16 22:54:07 INFO Agent received command: run
+2022-08-16 22:54:07 INFO Agent starting run with config:
+	alpha: 9.290637706848252e-08
+2022-08-16 22:54:07 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model --corrupt --alpha=9.290637706848252e-08
+2022-08-16 22:55:55 INFO Running runs: []
+2022-08-16 22:55:55 INFO Agent received command: run
+2022-08-16 22:55:55 INFO Agent starting run with config:
+	alpha: 0.21073958487320835
+2022-08-16 22:55:55 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model --alpha=0.21073958487320835
+2022-08-16 22:56:00 INFO Running runs: ['xi0lv1rz']
+2022-08-16 22:56:00 INFO Cleaning up finished run: xi0lv1rz
+2022-08-16 22:56:01 INFO Agent received command: run
+2022-08-16 22:56:01 INFO Agent starting run with config:
+	alpha: 8.610508973681935e-06
+2022-08-16 22:56:01 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model --alpha=8.610508973681935e-06
+2022-08-16 22:56:06 INFO Running runs: ['zl73777j']
+2022-08-16 22:56:06 INFO Cleaning up finished run: zl73777j
+2022-08-16 22:56:07 INFO Agent received command: run
+2022-08-16 22:56:07 INFO Agent starting run with config:
+	alpha: 2.1593681780333993e-05
+2022-08-16 22:56:07 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model --alpha=2.1593681780333993e-05
+2022-08-16 22:56:12 INFO Running runs: ['mopatumn']
+2022-08-16 22:56:12 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2022-08-16 22:56:12 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2022-08-16 22:57:14 INFO Running runs: []
+2022-08-16 22:57:14 INFO Agent received command: run
+2022-08-16 22:57:14 INFO Agent starting run with config:
+	alpha: 0.0007539692146844933
+2022-08-16 22:57:14 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model cox --alpha=0.0007539692146844933
+2022-08-16 22:57:19 INFO Running runs: ['nys0b6x0']
+2022-08-16 22:57:19 INFO Cleaning up finished run: nys0b6x0
+2022-08-16 22:57:20 INFO Agent received command: run
+2022-08-16 22:57:20 INFO Agent starting run with config:
+	alpha: 0.05196048406854591
+2022-08-16 22:57:20 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model cox --alpha=0.05196048406854591
+2022-08-16 23:01:05 INFO Running runs: []
+2022-08-16 23:01:05 INFO Agent received command: run
+2022-08-16 23:01:05 INFO Agent starting run with config:
+	alpha: 0.04360486443334213
+2022-08-16 23:01:05 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model cox --alpha=0.04360486443334213
+2022-08-16 23:01:10 INFO Running runs: ['dzqa36jx']
+2022-08-16 23:01:10 INFO Cleaning up finished run: dzqa36jx
+2022-08-16 23:01:11 INFO Agent received command: run
+2022-08-16 23:01:11 INFO Agent starting run with config:
+	alpha: 1.2608087209031636e-07
+2022-08-16 23:01:11 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model cox --alpha=1.2608087209031636e-07
+2022-08-16 23:01:16 INFO Running runs: ['4kj0kx2x']
+2022-08-16 23:01:16 INFO Cleaning up finished run: 4kj0kx2x
+2022-08-16 23:01:17 INFO Agent received command: run
+2022-08-16 23:01:17 INFO Agent starting run with config:
+	alpha: 0.01769027765150383
+2022-08-16 23:01:17 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --notes "hyperparameter search" --model cox --alpha=0.01769027765150383
+2022-08-16 23:01:22 INFO Running runs: ['jpe5lrbd']
+2022-08-16 23:01:22 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2022-08-16 23:01:22 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2022-08-16 23:02:40 INFO Running runs: []
+2022-08-16 23:02:41 INFO Agent received command: run
+2022-08-16 23:02:41 INFO Agent starting run with config:
+	alpha: 1.9088522536034315e-08
+2022-08-16 23:02:41 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=1.9088522536034315e-08
+2022-08-16 23:02:46 INFO Running runs: ['zkpxp808']
+2022-08-16 23:03:34 INFO Running runs: []
+2022-08-16 23:03:35 INFO Agent received command: run
+2022-08-16 23:03:35 INFO Agent starting run with config:
+	alpha: 0.0005174165173789027
+2022-08-16 23:03:35 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=0.0005174165173789027
+2022-08-16 23:03:40 INFO Running runs: ['7i7z1gyb']
+2022-08-17 07:42:58 INFO Cleaning up finished run: 7i7z1gyb
+2022-08-17 07:43:05 INFO Agent received command: run
+2022-08-17 07:43:05 INFO Agent starting run with config:
+	alpha: 0.005271644623451608
+2022-08-17 07:43:05 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=0.005271644623451608
+2022-08-17 07:43:10 INFO Running runs: ['ijxfps9i']
+2022-08-17 09:44:54 INFO Cleaning up finished run: ijxfps9i
+2022-08-17 09:44:55 INFO Agent received command: run
+2022-08-17 09:44:55 INFO Agent starting run with config:
+	alpha: 2.1521148425556133e-05
+2022-08-17 09:44:55 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=2.1521148425556133e-05
+2022-08-17 09:45:00 INFO Running runs: ['o14wl5mo']
+2022-08-17 10:25:06 INFO Cleaning up finished run: o14wl5mo
+2022-08-17 10:25:12 INFO Agent received command: run
+2022-08-17 10:25:12 INFO Agent starting run with config:
+	alpha: 6.056108945915347e-06
+2022-08-17 10:25:12 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=6.056108945915347e-06
+2022-08-17 10:25:17 INFO Running runs: ['q8lfsbq3']
+2022-08-17 13:37:22 INFO Cleaning up finished run: q8lfsbq3
+2022-08-17 13:37:23 INFO Agent received command: run
+2022-08-17 13:37:23 INFO Agent starting run with config:
+	alpha: 0.0007115514543402617
+2022-08-17 13:37:23 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=0.0007115514543402617
+2022-08-17 13:37:28 INFO Running runs: ['05bcydzg']
+2022-08-17 14:11:34 INFO Running runs: []
+2022-08-17 14:11:35 INFO Agent received command: run
+2022-08-17 14:11:35 INFO Agent starting run with config:
+	alpha: 4.0846575840844e-05
+2022-08-17 14:11:35 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=4.0846575840844e-05
+2022-08-17 14:11:40 INFO Running runs: ['noi513m6']
+2022-08-17 14:13:36 INFO Running runs: []
+2022-08-17 14:13:36 INFO Agent received command: run
+2022-08-17 14:13:36 INFO Agent starting run with config:
+	max_depth: 28
+	min_samples_leaf: 3
+	min_samples_split: 11
+2022-08-17 14:13:36 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=28 --min_samples_leaf=3 --min_samples_split=11 dt --max_depth=28 --min_samples_leaf=3 --min_samples_split=11
+2022-08-17 14:13:41 INFO Running runs: ['b3o9bkqz']
+2022-08-17 14:13:41 INFO Cleaning up finished run: b3o9bkqz
+2022-08-17 14:13:42 INFO Agent received command: run
+2022-08-17 14:13:42 INFO Agent starting run with config:
+	max_depth: 30
+	min_samples_leaf: 7
+	min_samples_split: 8
+2022-08-17 14:13:42 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=30 --min_samples_leaf=7 --min_samples_split=8 dt --max_depth=30 --min_samples_leaf=7 --min_samples_split=8
+2022-08-17 14:13:47 INFO Running runs: ['1u072p23']
+2022-08-17 14:13:47 INFO Cleaning up finished run: 1u072p23
+2022-08-17 14:13:47 INFO Agent received command: run
+2022-08-17 14:13:47 INFO Agent starting run with config:
+	max_depth: 31
+	min_samples_leaf: 1
+	min_samples_split: 11
+2022-08-17 14:13:47 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=31 --min_samples_leaf=1 --min_samples_split=11 dt --max_depth=31 --min_samples_leaf=1 --min_samples_split=11
+2022-08-17 14:13:52 INFO Running runs: ['wp3dicmh']
+2022-08-17 14:13:52 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2022-08-17 14:13:52 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2022-08-17 14:17:22 INFO Running runs: []
+2022-08-17 14:17:23 INFO Agent received command: run
+2022-08-17 14:17:23 INFO Agent starting run with config:
+	alpha: 0.0003204200428986213
+2022-08-17 14:17:23 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=0.0003204200428986213
+2022-08-17 14:17:28 INFO Running runs: ['co89lda0']
+2022-08-17 14:19:06 INFO Running runs: []
+2022-08-17 14:19:06 INFO Agent received command: run
+2022-08-17 14:19:06 INFO Agent starting run with config:
+	alpha: 6.266702841512924e-07
+2022-08-17 14:19:06 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 4 --repeats 1 --model cox --alpha=6.266702841512924e-07
+2022-08-17 14:19:11 INFO Running runs: ['pnk9n7fl']
+2022-08-17 14:20:01 INFO Running runs: []
+2022-08-17 14:20:01 INFO Agent received command: run
+2022-08-17 14:20:01 INFO Agent starting run with config:
+	max_depth: 12
+	min_samples_leaf: 3
+	min_samples_split: 10
+2022-08-17 14:20:01 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=12 --min_samples_leaf=3 --min_samples_split=10 dt --max_depth=12 --min_samples_leaf=3 --min_samples_split=10
+2022-08-17 14:20:06 INFO Running runs: ['a9qxma8b']
+2022-08-17 14:20:06 INFO Cleaning up finished run: a9qxma8b
+2022-08-17 14:20:07 INFO Agent received command: run
+2022-08-17 14:20:07 INFO Agent starting run with config:
+	max_depth: 11
+	min_samples_leaf: 1
+	min_samples_split: 7
+2022-08-17 14:20:07 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=11 --min_samples_leaf=1 --min_samples_split=7 dt --max_depth=11 --min_samples_leaf=1 --min_samples_split=7
+2022-08-17 14:20:12 INFO Running runs: ['3rx6gkv2']
+2022-08-17 14:20:12 INFO Cleaning up finished run: 3rx6gkv2
+2022-08-17 14:20:13 INFO Agent received command: run
+2022-08-17 14:20:13 INFO Agent starting run with config:
+	max_depth: 25
+	min_samples_leaf: 8
+	min_samples_split: 5
+2022-08-17 14:20:13 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=25 --min_samples_leaf=8 --min_samples_split=5 dt --max_depth=25 --min_samples_leaf=8 --min_samples_split=5
+2022-08-17 14:20:18 INFO Running runs: ['sycgm09k']
+2022-08-17 14:20:18 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2022-08-17 14:20:18 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2022-08-17 14:20:26 INFO Running runs: []
+2022-08-17 14:20:26 INFO Agent received command: run
+2022-08-17 14:20:26 INFO Agent starting run with config:
+	max_depth: 25
+	min_samples_leaf: 7
+	min_samples_split: 12
+	n_estimators: 865
+2022-08-17 14:20:26 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=25 --min_samples_leaf=7 --min_samples_split=12 --n_estimators=865 dt --max_depth=25 --min_samples_leaf=7 --min_samples_split=12 --n_estimators=865 rf --max_depth=25 --min_samples_leaf=7 --min_samples_split=12 --n_estimators=865
+2022-08-17 14:20:31 INFO Running runs: ['amlg1fq4']
+2022-08-17 14:20:31 INFO Cleaning up finished run: amlg1fq4
+2022-08-17 14:20:31 INFO Agent received command: run
+2022-08-17 14:20:31 INFO Agent starting run with config:
+	max_depth: 10
+	min_samples_leaf: 10
+	min_samples_split: 5
+	n_estimators: 527
+2022-08-17 14:20:31 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=10 --min_samples_leaf=10 --min_samples_split=5 --n_estimators=527 dt --max_depth=10 --min_samples_leaf=10 --min_samples_split=5 --n_estimators=527 rf --max_depth=10 --min_samples_leaf=10 --min_samples_split=5 --n_estimators=527
+2022-08-17 14:20:36 INFO Running runs: ['bcget1uj']
+2022-08-17 14:20:36 INFO Cleaning up finished run: bcget1uj
+2022-08-17 14:20:37 INFO Agent received command: run
+2022-08-17 14:20:37 INFO Agent starting run with config:
+	max_depth: 22
+	min_samples_leaf: 5
+	min_samples_split: 6
+	n_estimators: 519
+2022-08-17 14:20:37 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --max_depth=22 --min_samples_leaf=5 --min_samples_split=6 --n_estimators=519 dt --max_depth=22 --min_samples_leaf=5 --min_samples_split=6 --n_estimators=519 rf --max_depth=22 --min_samples_leaf=5 --min_samples_split=6 --n_estimators=519
+2022-08-17 14:20:42 INFO Running runs: ['mngy2tqy']
+2022-08-17 14:20:42 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2022-08-17 14:20:42 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2022-08-17 14:20:50 INFO Running runs: []
+2022-08-17 14:20:50 INFO Agent received command: run
+2022-08-17 14:20:50 INFO Agent starting run with config:
+	learning_rate: 0.0001214958297175082
+	loss: ipcwls
+	max_depth: 6
+	min_samples_leaf: 1
+	min_samples_split: 5
+	n_estimators: 230
+2022-08-17 14:20:50 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --learning_rate=0.0001214958297175082 --loss=ipcwls --max_depth=6 --min_samples_leaf=1 --min_samples_split=5 --n_estimators=230 dt --learning_rate=0.0001214958297175082 --loss=ipcwls --max_depth=6 --min_samples_leaf=1 --min_samples_split=5 --n_estimators=230 rf --learning_rate=0.0001214958297175082 --loss=ipcwls --max_depth=6 --min_samples_leaf=1 --min_samples_split=5 --n_estimators=230 gbm --learning_rate=0.0001214958297175082 --loss=ipcwls --max_depth=6 --min_samples_leaf=1 --min_samples_split=5 --n_estimators=230
+2022-08-17 14:21:17 INFO Running runs: []
+2022-08-17 14:21:18 INFO Agent received command: run
+2022-08-17 14:21:18 INFO Agent starting run with config:
+	alpha: 0.15192949322256727
+2022-08-17 14:21:18 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.15192949322256727
+2022-08-17 14:21:23 INFO Running runs: ['b7hgh5wq']
+2022-08-17 14:22:38 INFO Running runs: []
+2022-08-17 14:22:39 INFO Agent received command: run
+2022-08-17 14:22:39 INFO Agent starting run with config:
+	alpha: 1.0124221158173509e-07
+2022-08-17 14:22:39 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.0124221158173509e-07
+2022-08-17 14:22:44 INFO Running runs: ['0lb1629r']
+2022-08-17 14:23:34 INFO Running runs: []
+2022-08-17 14:23:35 INFO Agent received command: run
+2022-08-17 14:23:35 INFO Agent starting run with config:
+	alpha: 0.02974976517049699
+2022-08-17 14:23:35 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.02974976517049699
+2022-08-17 14:23:40 INFO Running runs: ['1sdhxah6']
+2022-08-17 14:26:01 INFO Running runs: []
+2022-08-17 14:26:07 INFO Agent received command: run
+2022-08-17 14:26:07 INFO Agent starting run with config:
+	alpha: 0.0025450280811805397
+2022-08-17 14:26:07 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.0025450280811805397
+2022-08-17 14:26:12 INFO Running runs: ['9w2yakk4']
+2022-08-17 14:31:22 INFO Running runs: []
+2022-08-17 14:31:22 INFO Agent received command: run
+2022-08-17 14:31:22 INFO Agent starting run with config:
+	alpha: 1.5408419943744326e-07
+2022-08-17 14:31:22 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.5408419943744326e-07
+2022-08-17 14:31:27 INFO Running runs: ['9z7but0c']
+2022-08-17 14:31:43 INFO Running runs: []
+2022-08-17 14:31:54 INFO Running runs: []
+2022-08-17 14:31:54 INFO Agent received command: run
+2022-08-17 14:31:54 INFO Agent starting run with config:
+	alpha: 1.8836394119262392e-08
+2022-08-17 14:31:54 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.8836394119262392e-08
+2022-08-17 14:31:59 INFO Running runs: ['44y26dd4']
+2022-08-17 15:06:31 INFO Cleaning up finished run: 44y26dd4
+2022-08-17 15:06:40 INFO Agent received command: run
+2022-08-17 15:06:40 INFO Agent starting run with config:
+	alpha: 0.011481463370494207
+2022-08-17 15:06:40 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.011481463370494207
+2022-08-17 15:06:45 INFO Running runs: ['hek1tqql']
+2022-08-17 15:32:36 INFO Cleaning up finished run: hek1tqql
+2022-08-17 15:32:36 INFO Agent received command: run
+2022-08-17 15:32:36 INFO Agent starting run with config:
+	alpha: 0.004382624667082956
+2022-08-17 15:32:36 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.004382624667082956
+2022-08-17 15:32:41 INFO Running runs: ['42c8g2mx']
+2022-08-17 15:58:09 INFO Cleaning up finished run: 42c8g2mx
+2022-08-17 15:58:10 INFO Agent received command: run
+2022-08-17 15:58:10 INFO Agent starting run with config:
+	alpha: 0.8220522377173728
+2022-08-17 15:58:10 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.8220522377173728
+2022-08-17 15:58:15 INFO Running runs: ['ih0udjkk']
+2022-08-17 16:24:13 INFO Cleaning up finished run: ih0udjkk
+2022-08-17 16:24:13 INFO Agent received command: run
+2022-08-17 16:24:13 INFO Agent starting run with config:
+	alpha: 0.005500703040336141
+2022-08-17 16:24:13 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.005500703040336141
+2022-08-17 16:24:18 INFO Running runs: ['1ntekhde']
+2022-08-17 16:50:07 INFO Cleaning up finished run: 1ntekhde
+2022-08-17 16:50:08 INFO Agent received command: run
+2022-08-17 16:50:08 INFO Agent starting run with config:
+	alpha: 0.012664205016374044
+2022-08-17 16:50:08 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.012664205016374044
+2022-08-17 16:50:13 INFO Running runs: ['x357hh43']
+2022-08-17 17:14:10 INFO Cleaning up finished run: x357hh43
+2022-08-17 17:14:11 INFO Agent received command: run
+2022-08-17 17:14:11 INFO Agent starting run with config:
+	alpha: 0.0003695961102931961
+2022-08-17 17:14:11 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.0003695961102931961
+2022-08-17 17:14:16 INFO Running runs: ['burv5ulh']
+2022-08-17 17:37:30 INFO Cleaning up finished run: burv5ulh
+2022-08-17 17:37:32 INFO Agent received command: run
+2022-08-17 17:37:32 INFO Agent starting run with config:
+	alpha: 0.12961796257352007
+2022-08-17 17:37:32 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.12961796257352007
+2022-08-17 17:37:37 INFO Running runs: ['uxf6kxf8']
+2022-08-17 18:01:21 INFO Cleaning up finished run: uxf6kxf8
+2022-08-17 18:01:41 INFO Agent received command: run
+2022-08-17 18:01:41 INFO Agent starting run with config:
+	alpha: 1.3868417909050123e-06
+2022-08-17 18:01:41 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.3868417909050123e-06
+2022-08-17 18:01:46 INFO Running runs: ['7r6hhog9']
+2022-08-17 18:03:09 INFO Cleaning up finished run: 7r6hhog9
+2022-08-17 18:03:14 INFO Agent received command: run
+2022-08-17 18:03:14 INFO Agent starting run with config:
+	alpha: 1.9619034802770522e-08
+2022-08-17 18:03:14 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.9619034802770522e-08
+2022-08-17 18:03:19 INFO Running runs: ['94rzeu26']
+2022-08-17 19:11:22 INFO Cleaning up finished run: 94rzeu26
+2022-08-17 19:12:01 INFO Agent received command: run
+2022-08-17 19:12:01 INFO Agent starting run with config:
+	alpha: 0.8986232146901008
+2022-08-17 19:12:01 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.8986232146901008
+2022-08-17 19:12:07 INFO Running runs: ['1v5aq253']
+2022-08-17 19:35:28 INFO Cleaning up finished run: 1v5aq253
+2022-08-17 19:35:29 INFO Agent received command: run
+2022-08-17 19:35:29 INFO Agent starting run with config:
+	alpha: 0.1523264815149121
+2022-08-17 19:35:29 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.1523264815149121
+2022-08-17 19:35:34 INFO Running runs: ['ginzlled']
+2022-08-17 19:44:32 ERROR 404 response executing GraphQL.
+2022-08-17 19:44:32 ERROR {"errors":[{"message":"could not find agent 6fp2oycc during agentHeartbeat","path":["agentHeartbeat"]}],"data":{"agentHeartbeat":null}}
+2022-08-17 19:48:33 INFO Running runs: []
+2022-08-17 19:48:33 INFO Agent received command: run
+2022-08-17 19:48:33 INFO Agent starting run with config:
+	alpha: 2.354297550915517e-08
+2022-08-17 19:48:33 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=2.354297550915517e-08
+2022-08-17 19:48:38 INFO Running runs: ['gin0k9w0']
+2022-08-17 20:58:44 INFO Cleaning up finished run: gin0k9w0
+2022-08-17 20:59:20 INFO Running runs: []
+2022-08-17 20:59:49 INFO Agent received command: run
+2022-08-17 20:59:49 INFO Agent starting run with config:
+	alpha: 1.2571560171685812e-08
+2022-08-17 20:59:49 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.2571560171685812e-08
+2022-08-17 20:59:54 INFO Running runs: ['99ox9jqx']
+2022-08-17 21:05:25 ERROR 500 response executing GraphQL.
+2022-08-17 21:05:25 ERROR {"error":"driver: bad connection"}
+2022-08-17 21:05:28 ERROR 500 response executing GraphQL.
+2022-08-17 21:05:28 ERROR {"error":"dial tcp 35.226.229.132:3307: connect: connection refused"}
+2022-08-17 21:05:31 ERROR 500 response executing GraphQL.
+2022-08-17 21:05:31 ERROR {"error":"dial tcp 35.226.229.132:3307: connect: connection refused"}
+2022-08-17 21:05:31 ERROR Retry attempt failed:
+Traceback (most recent call last):
+  File "/usr/local/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/usr/local/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 204, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/usr/local/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/usr/local/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/usr/local/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/usr/local/Caskroom/miniconda/base/envs/surv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/graphql
+2022-08-17 21:05:36 ERROR 500 response executing GraphQL.
+2022-08-17 21:05:36 ERROR {"error":"dial tcp 35.226.229.132:3307: connect: connection refused"}
+2022-08-17 21:06:40 ERROR 500 response executing GraphQL.
+2022-08-17 21:06:40 ERROR {"error":"context deadline exceeded"}
+2022-08-17 21:07:52 ERROR 500 response executing GraphQL.
+2022-08-17 21:07:52 ERROR {"error":"context deadline exceeded"}
+2022-08-17 21:09:21 ERROR 500 response executing GraphQL.
+2022-08-17 21:09:21 ERROR {"error":"context deadline exceeded"}
+2022-08-17 21:11:22 ERROR 500 response executing GraphQL.
+2022-08-17 21:11:22 ERROR {"error":"context deadline exceeded"}
+2022-08-17 21:58:30 INFO Cleaning up finished run: 99ox9jqx
+2022-08-17 21:58:30 INFO Agent received command: run
+2022-08-17 21:58:30 INFO Agent starting run with config:
+	alpha: 5.673287958253302e-05
+2022-08-17 21:58:30 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=5.673287958253302e-05
+2022-08-17 21:58:35 INFO Running runs: ['gnor0psf']
+2022-08-17 22:23:31 INFO Cleaning up finished run: gnor0psf
+2022-08-17 22:23:32 INFO Agent received command: run
+2022-08-17 22:23:32 INFO Agent starting run with config:
+	alpha: 1.2707484170168815e-06
+2022-08-17 22:23:32 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.2707484170168815e-06
+2022-08-17 22:23:37 INFO Running runs: ['j5h0im84']
+2022-08-17 22:49:28 INFO Cleaning up finished run: j5h0im84
+2022-08-17 22:49:29 INFO Agent received command: run
+2022-08-17 22:49:29 INFO Agent starting run with config:
+	alpha: 6.137197855110529e-05
+2022-08-17 22:49:29 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=6.137197855110529e-05
+2022-08-17 22:49:34 INFO Running runs: ['6c9ibdlf']
+2022-08-17 23:14:24 INFO Cleaning up finished run: 6c9ibdlf
+2022-08-17 23:14:24 INFO Agent received command: run
+2022-08-17 23:14:24 INFO Agent starting run with config:
+	alpha: 6.972349281682453e-07
+2022-08-17 23:14:24 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=6.972349281682453e-07
+2022-08-17 23:14:29 INFO Running runs: ['0y602lo1']
+2022-08-17 23:41:11 INFO Cleaning up finished run: 0y602lo1
+2022-08-17 23:41:12 INFO Agent received command: run
+2022-08-17 23:41:12 INFO Agent starting run with config:
+	alpha: 1.7411709896374188e-06
+2022-08-17 23:41:12 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.7411709896374188e-06
+2022-08-17 23:41:17 INFO Running runs: ['7vghynsi']
+2022-08-18 00:07:18 INFO Cleaning up finished run: 7vghynsi
+2022-08-18 00:07:19 INFO Agent received command: run
+2022-08-18 00:07:19 INFO Agent starting run with config:
+	alpha: 0.0012278021770801182
+2022-08-18 00:07:19 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.0012278021770801182
+2022-08-18 00:07:24 INFO Running runs: ['x29n1thq']
+2022-08-18 00:31:26 INFO Cleaning up finished run: x29n1thq
+2022-08-18 00:31:26 INFO Agent received command: run
+2022-08-18 00:31:26 INFO Agent starting run with config:
+	alpha: 0.003832289692484417
+2022-08-18 00:31:26 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.003832289692484417
+2022-08-18 00:31:31 INFO Running runs: ['mc3w2p21']
+2022-08-18 00:56:49 INFO Cleaning up finished run: mc3w2p21
+2022-08-18 00:56:50 INFO Agent received command: run
+2022-08-18 00:56:50 INFO Agent starting run with config:
+	alpha: 0.004001002524424478
+2022-08-18 00:56:50 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.004001002524424478
+2022-08-18 00:56:55 INFO Running runs: ['j5odmebq']
+2022-08-18 01:22:05 INFO Cleaning up finished run: j5odmebq
+2022-08-18 01:22:06 INFO Agent received command: run
+2022-08-18 01:22:06 INFO Agent starting run with config:
+	alpha: 0.16610356956465228
+2022-08-18 01:22:06 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.16610356956465228
+2022-08-18 01:22:11 INFO Running runs: ['tavtt4px']
+2022-08-18 01:47:49 INFO Cleaning up finished run: tavtt4px
+2022-08-18 01:47:49 INFO Agent received command: run
+2022-08-18 01:47:49 INFO Agent starting run with config:
+	alpha: 0.0002499541642810509
+2022-08-18 01:47:49 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.0002499541642810509
+2022-08-18 01:47:54 INFO Running runs: ['9xify4ws']
+2022-08-18 02:13:54 INFO Cleaning up finished run: 9xify4ws
+2022-08-18 02:13:55 INFO Agent received command: run
+2022-08-18 02:13:55 INFO Agent starting run with config:
+	alpha: 0.2536080201658071
+2022-08-18 02:13:55 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.2536080201658071
+2022-08-18 02:14:00 INFO Running runs: ['avndiacd']
+2022-08-18 02:38:32 INFO Cleaning up finished run: avndiacd
+2022-08-18 02:38:32 INFO Agent received command: run
+2022-08-18 02:38:32 INFO Agent starting run with config:
+	alpha: 0.10682224657387757
+2022-08-18 02:38:32 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.10682224657387757
+2022-08-18 02:38:37 INFO Running runs: ['rticpz2g']
+2022-08-18 03:03:06 INFO Cleaning up finished run: rticpz2g
+2022-08-18 03:03:07 INFO Agent received command: run
+2022-08-18 03:03:07 INFO Agent starting run with config:
+	alpha: 0.7910915065079288
+2022-08-18 03:03:07 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=0.7910915065079288
+2022-08-18 03:03:12 INFO Running runs: ['07vm0k9i']
+2022-08-18 03:27:15 INFO Cleaning up finished run: 07vm0k9i
+2022-08-18 09:25:23 INFO Running runs: []
+2022-08-18 09:25:24 INFO Agent received command: run
+2022-08-18 09:25:24 INFO Agent starting run with config:
+	alpha: 1.6308838707244167e-08
+2022-08-18 09:25:24 INFO About to run command: /usr/bin/env python train.py --dataset ANZSCTS --k 2 --repeats 2 --model cox --alpha=1.6308838707244167e-08
+2022-08-18 09:25:29 INFO Running runs: ['5lb8zlce']
