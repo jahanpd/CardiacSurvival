@@ -7,6 +7,7 @@ def datasets(name="test", path=None):
     if name == "test":
         X, y = load_breast_cancer()
         Xt = OneHotEncoder().fit_transform(X)
+        y = y.astype([('event', 'bool'), ('days', 'float64')])
         return Xt, y
     elif name == "ANZSCTS":
         assert path is not None, "Path is not given for ANZSCTS dataset"

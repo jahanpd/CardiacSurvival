@@ -154,6 +154,7 @@ def get_anzscts():
 
     # add censoring days
     ds_new["censor_days"] = (censor_date - data.DOP).dt.days
+
     with open('data_dictionary.json', 'w') as outfile:
         json.dump(dd_new, outfile)
     outfile.close()
