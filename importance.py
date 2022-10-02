@@ -9,6 +9,7 @@ from sksurv.ensemble import GradientBoostingSurvivalAnalysis
 from data import datasets
 from models import make_model, Imputer
 from docx import Document
+from argparse import Namespace
 
 ENTITY="cardiac-ml"
 PROJECT="survival"
@@ -55,8 +56,9 @@ def get_sweep(entity, project, sweep_id):
         print(e)
         return "FAILED"
 
-config = get_sweep(ENTITY, PROJECT, store["gbm"])
+config = Namespace(**get_sweep(ENTITY, PROJECT, store["gbm"]))
 
+print(config)
 model = make_model(
     config, seed=1234, cat="auto" if len(cat)==0 else cat,
     imputer=None
