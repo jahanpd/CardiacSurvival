@@ -74,6 +74,7 @@ def get_anzscts():
                 summary["mean_alive"] = alive.mean()
                 summary["std_alive"] = alive.std()
                 _, summary["pvalue"] = stats.ttest_ind(mort.dropna().values, alive.dropna().values)
+                summary["missingness"] = np.sum(np.isnan(series.values)) / len(series)
                 v["summary"] = summary
                 dd_new[k] = v
         elif v["type"] == "categorical":
@@ -105,6 +106,7 @@ def get_anzscts():
                                 summary["counts_alive"][d]=0.0
                     table = pd.crosstab(df[k], ~pd.isna(data.Final_Deathdate))
                     summary["pvalue"] = stats.chi2_contingency(table.values)[1]
+                    summary["missingness"] = np.sum(np.isnan(df[k].values)) / len(df[k])
                     v["summary"] = summary
                     dd_new[k] = v
                     ds_new[k] = [np.nan if pd.isna(x) else values.index(x) for x in df[k].values]
@@ -128,6 +130,7 @@ def get_anzscts():
                                 summary["counts_alive"][d]=0.0
                     table = pd.crosstab(df[k], ~pd.isna(data.Final_Deathdate))
                     summary["pvalue"] = stats.chi2_contingency(table.values)[1]
+                    summary["missingness"] = np.sum(np.isnan(df[k].values)) / len(df[k])
                     v["summary"] = summary
                     if k not in nodummy:
                         dummified = pd.get_dummies(df, dummy_na=True)
