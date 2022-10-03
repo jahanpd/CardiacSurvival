@@ -85,10 +85,15 @@ hdr_cells = table.rows[0].cells
 hdr_cells[0].text = 'Feature'
 hdr_cells[1].text = 'Score'
 
+print(fi)
+
 for f in fi:
     row_cells = table.add_row().cells
-    row_cells[0].text = data_dict[f[1]]["name"]
-    row_cells[1].text = str(f[1])
+    try:
+        row_cells[0].text = data_dict[f[1]]["name"]
+    except:
+        row_cells[0].text = f[1]
 
+    row_cells[1].text = str(f[0])
 
 doc.save('importance.docx')
